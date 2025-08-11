@@ -1,4 +1,5 @@
-// IMPORTANT: Replace with your Firebase project's configuration
+// IMPORTANT: This file is configured to use environment variables.
+// You must set these variables in your deployment environment (e.g., Vercel).
 export const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,

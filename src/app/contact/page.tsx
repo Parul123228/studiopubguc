@@ -1,6 +1,8 @@
 import { ContactForm } from "./ContactForm";
 import { MessageSquare } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export default function ContactPage() {
   return (
     <div className="w-full max-w-2xl mx-auto animate-fade-in relative">
